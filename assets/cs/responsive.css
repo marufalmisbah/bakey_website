@@ -1,0 +1,23 @@
+@media (max-width:900px){
+  .hero-grid,.two-col,.brands,.footer-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .cake-stage{max-width:360px}
+  .search{margin-left:0;width:100%}
+}
+@media (max-width:760px){
+  .menu-btn{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:12px;border:2px solid var(--plum);background:transparent;font-size:1.4rem;cursor:pointer}
+  .nav-links{position:absolute;top:100%;left:0;right:0;background:var(--frost);flex-direction:column;gap:0;padding:.5rem 4%;border-bottom:2px dashed var(--blush);display:none}
+  .nav-links.open{display:flex}
+  .nav-links a{display:block;padding:.8rem 0}
+  .logo small{display:none}
+}
+@media (max-width:480px){
+  body{font-size:1rem}
+  .product-grid{grid-template-columns:1fr 1fr;gap:.8rem}
+  .product-art{height:120px;font-size:3.2rem}
+  .product-body{padding:.8rem}
+  .product-foot{flex-direction:column;align-items:stretch}
+  .add-btn{width:100%;justify-content:center}
+  .hero-cta .btn{width:100%;justify-content:center}
+  .brand-card{padding:1.5rem}
+}

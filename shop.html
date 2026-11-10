@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop | Toha's Cake Zone & Satkania Traders</title>
+<meta name="description" content="Browse cakes and groceries and send your order on Facebook.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/cs/style.css">
+<link rel="stylesheet" href="assets/cs/responsive.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap nav">
+  <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">🎂</span><span>Toha's Cake Zone<small>& Satkania Traders</small></span></a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="shop.html" aria-current="page">Shop</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a class="btn cart-btn" href="shop.html" data-open-cart>Order <span class="cart-count" aria-label="items in order">0</span></a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+  </div>
+</div></header>
+
+<main>
+<section class="shop-hero"><div class="wrap">
+  <h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">The shop</h1>
+  <p class="lead">Add what you need. We confirm the price and delivery by message.</p>
+</div></section>
+<section class="section"><div class="wrap">
+  <div class="filters" role="group" aria-label="Filter by shop">
+    <button class="chip" data-brand="all" aria-pressed="true">All</button>
+    <button class="chip" data-brand="cake" aria-pressed="false">🎂 Cakes</button>
+    <button class="chip" data-brand="traders" aria-pressed="false">🌾 Groceries</button>
+    <input id="search" class="search" type="search" placeholder="Search items" aria-label="Search items" style="margin-bottom:0">
+  </div>
+  <p class="note" id="result-count" aria-live="polite"></p>
+  <div class="product-grid" id="shop-grid"></div>
+  <p class="note" style="margin-top:2rem">Prices shown are a guide and may change. Final price is confirmed when you message us.</p>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <div class="footer-grid">
+    <div><h3>Toha's Cake Zone & Satkania Traders</h3><p>Fresh cakes and everyday groceries from Satkania, Chattogram.</p></div>
+    <div><h3>Pages</h3><ul><li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h3>Find us</h3><ul><li><a href="https://www.facebook.com/profile.php?id=61562022416678" target="_blank" rel="noopener">Facebook page</a></li><li><a href="shop.html#cake">Cakes</a></li><li><a href="shop.html#traders">Groceries</a></li></ul></div>
+  </div>
+  <div class="copy">© 2026 Toha's Cake Zone & Satkania Traders. All rights reserved.</div>
+</div></footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
